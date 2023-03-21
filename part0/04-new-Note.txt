@@ -1,0 +1,12 @@
+browser -> server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/notes
+server --> browser: HTML-code
+browser -> server: HTTP GET HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+server --> browser: main.css
+browser -> server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.js
+server --> browser: main.js
+browser -> server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/new_note
+server --> browser: (document.write('hola'))
+browser->server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/data.json
+server-->browser: [{content: 'hola', date: '2023-03-21T10:50:50.227Z'}, ...]
+
+HTML has a new json content 'hola'

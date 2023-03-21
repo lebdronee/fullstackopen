@@ -1,0 +1,6 @@
+browser -> server: HTTP GET https://studies.cs.helsinki.fi/stats/courses/fullstackopen
+server --> browser: HTML-code
+browser -> server: HTTP GET https://studies.cs.helsinki.fi/stats/main.css
+server --> browser: main.css
+browser -> server: https://studies.cs.helsinki.fi/stats/main.js
+server --> browser: main.js

@@ -1,0 +1,12 @@
+browser -> server: HTTP GET https://fullstackopen.com/es/part0/fundamentos_de_las_aplicaciones_web#aplicacion-de-una-sola-pagina
+server --> browser: HTML-code
+browser -> server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa
+server --> browser: HTML-code
+browser -> server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/main.css
+server --> browser: main.css
+browser -> server: HTTP GET https://studies.cs.helsinki.fi/exampleapp/spa.js
+server --> browser: spa.js
+
+didn't understand too much of this firsts excersices to be honest, but i know how the http request works, there is get, post, delete, put, patch, etc...
+
+no entendi mucho los primeros ejercicios para ser sincero, pero entiendo como funcionan las pedidos http, esta get, post, delete, put, patch, etc...
